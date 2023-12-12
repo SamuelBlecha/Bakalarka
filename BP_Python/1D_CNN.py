@@ -167,8 +167,8 @@ model = OneD_CNN(in_channels, out_channels, kernel_size, stride, padding)
 
 #training
 
-learning_rate = 0.001
-num_epochs = 2000
+learning_rate = 0.0001
+num_epochs = 3000
 export_every = 100
 
 loss_over_time = np.zeros(num_epochs)
